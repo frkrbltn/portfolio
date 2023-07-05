@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### TO DO List
+### TODO
 
 - Create the publication and Resume page in figma.
 - If you do not want to open a tab or a new page for resume, explain what to do in figma instead of designing
