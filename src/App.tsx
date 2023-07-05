@@ -5,7 +5,7 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import HomeParagraph from "./components/HomeParagraph";
 import Breakthroughs from "./components/Breakthroughs";
-import { SiGmail } from "react-icons/si";
+import { FiMail } from "react-icons/fi";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGooglescholar } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
@@ -13,6 +13,7 @@ import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import { Badge } from "react-bootstrap";
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
             src={require("./images/emre-signature.png")}
             style={{ width: "auto", height: "auto", margin: "10px auto 45px" }}
           />
-          <SiGmail className="icon-style" />
+          <FiMail className="icon-style" />
           <BsLinkedin className="icon-style" />
           <SiGooglescholar className="icon-style" />
           <FaGithub className="icon-style" />
