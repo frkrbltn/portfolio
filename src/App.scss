@@ -2,18 +2,20 @@
 
 .App {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.App-content {
+.main-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
   margin-top: 30px;
 }
 .tab-style {
   height: 60px;
+  width: 100%;
   color: #000;
   font-size: 30px;
   font-family: "Judson", serif;
@@ -33,4 +35,18 @@
 }
 .nav-link {
   color: #000;
+}
+
+.tabs-container {
+  width: 100%;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 150%;
+  color: #000000;
+}
+
+.icon-style {
+  width: 75px;
+  height: 75px;
+  margin: 25px 150px;
 }
