@@ -4,6 +4,7 @@ import "./App.scss";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import HomeParagraph from "./components/HomeParagraph";
+import Breakthroughs from "./components/Breakthroughs";
 import { SiGmail } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGooglescholar } from "react-icons/si";
@@ -29,11 +30,11 @@ function App() {
         >
           <Image
             src={require("./images/emre-pic.png")}
-            style={{ width: "200px", height: "200px", margin: "25px 100px" }}
+            style={{ width: "auto", height: "auto", margin: "15px auto" }}
           />
           <Image
             src={require("./images/emre-signature.png")}
-            style={{ width: "150px", height: "150px", margin: "25px 125px" }}
+            style={{ width: "auto", height: "auto", margin: "10px auto 45px" }}
           />
           <SiGmail className="icon-style" />
           <BsLinkedin className="icon-style" />
@@ -47,9 +48,14 @@ function App() {
             </Tab>
             <Tab eventKey="publications" title="Publications"></Tab>
             <Tab eventKey="résumé" title="Résumé"></Tab>
-            <Tab eventKey="breakthroughs" title="Breakthroughs"></Tab>
+            <Tab eventKey="breakthroughs" title="Breakthroughs">
+              <Breakthroughs />
+            </Tab>
           </Tabs>
         </Col>
+      </Row>
+      <Row>
+        <Image src={require("./images/work-graph.png")} />
       </Row>
     </Container>
   );
