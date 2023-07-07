@@ -72,7 +72,18 @@ function App() {
           <SiGooglescholar className="icon-style" onClick={openGoogleScholar} />
           <FaGithub className="icon-style" onClick={openGithub} />
         </Col>
-        <Col xs={10} md={10} lg={10} style={{ marginTop: "45px" }}>
+        <Col
+          xs={12}
+          sm={10}
+          md={8}
+          lg={10}
+          xl={10}
+          style={{
+            marginTop: "40px",
+            maxHeight: "80vh", // Set this to desired height
+            overflowY: "auto", // Enable vertical scroll when content exceeds maxHeight
+          }}
+        >
           <Tabs defaultActiveKey="home" className="mb-3 tab-style" fill>
             <Tab eventKey="home" title="Home">
               <HomeParagraph />

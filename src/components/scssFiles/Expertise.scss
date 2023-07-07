@@ -5,6 +5,19 @@
   font-family: "Roboto", serif;
   font-size: 23px;
   width: 80%;
-  margin: 100px auto;
+  margin: auto;
+  padding: 0 15px;
   text-align: justify;
+}
+
+@media (max-width: 992px) {
+  .expertise-custom-style {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .expertise-custom-style {
+    font-size: 18px;
+  }
 }

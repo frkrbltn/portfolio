@@ -4,10 +4,7 @@ import "./scssFiles/Breakthroughs.scss";
 
 function Breakthroughs() {
   return (
-    <p
-      className="home-page-style font-custom-style"
-      style={{ margin: "75px auto 25px" }}
-    >
+    <p className="home-page-style font-custom-style">
       I am thrilled to share with you my journey as a Ph.D. candidate.
       Throughout my academic and industry career, I have dedicated myself to
       discovering and solving unique implementation vulnerabilities.
