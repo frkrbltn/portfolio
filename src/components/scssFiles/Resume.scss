@@ -7,7 +7,6 @@
   font-size: 25px;
   width: 75%;
   margin: auto;
-  padding: 0 15px;
   font-weight: bolder;
   text-align: center;
   line-height: normal;
@@ -36,4 +35,30 @@ p {
 .date {
   font-size: 21px;
   margin-top: 2px;
+}
+
+@media only screen and (max-width: 576px) {
+  /* other rules */
+  .resume-custom-style {
+    font-size: 13px; /* Adjust as needed */
+    padding: 5px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", serif;
+    width: 80%;
+    margin: auto;
+    padding: 0 15px; // Add some space around the text on smaller screens
+    text-align: justify;
+  }
+
+  p {
+    margin-top: 13px;
+    line-height: 135%;
+  }
+
+  .date {
+    font-size: 13px;
+    margin-top: 2px;
+  }
 }

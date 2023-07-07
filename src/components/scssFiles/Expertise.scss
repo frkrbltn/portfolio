@@ -10,14 +10,18 @@
   text-align: justify;
 }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 576px) {
+  /* other rules */
   .expertise-custom-style {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .expertise-custom-style {
-    font-size: 18px;
+    font-size: 13px; /* Adjust as needed */
+    padding: 5px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", serif;
+    width: 80%;
+    margin: auto;
+    padding: 0 15px; // Add some space around the text on smaller screens
+    text-align: justify;
   }
 }

@@ -32,8 +32,8 @@ function App() {
     <Container style={{ marginTop: "30px" }} className="App" fluid>
       <Row>
         <Col
-          xs={2}
-          md={2}
+          xs={{ span: 12, order: 2 }}
+          md={{ span: 2, order: 1 }}
           lg={2}
           style={{
             display: "flex",
@@ -45,17 +45,19 @@ function App() {
             src={require("./images/emre-pic.png")}
             className="img-fluid"
             style={{ width: "auto", height: "auto", margin: "15px auto" }}
+            fluid
           />
           <Image
             src={require("./images/emre-signature.png")}
             style={{ width: "auto", height: "auto", margin: "10px auto 45px" }}
             className="img-fluid"
+            fluid
           />
           <Badge
             bg="success"
             style={{
               margin: "-20px auto 5px auto",
-              fontSize: "20px",
+              fontSize: "1.2rem",
             }}
           >
             Security Researcher
@@ -73,11 +75,9 @@ function App() {
           <FaGithub className="icon-style" onClick={openGithub} />
         </Col>
         <Col
-          xs={12}
-          sm={10}
-          md={8}
+          xs={{ span: 12, order: 2 }}
+          md={{ span: 2, order: 1 }}
           lg={10}
-          xl={10}
           style={{
             marginTop: "40px",
             maxHeight: "80vh", // Set this to desired height
