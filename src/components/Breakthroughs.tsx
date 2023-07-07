@@ -1,10 +1,12 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./scssFiles/Breakthroughs.scss";
 
 function Breakthroughs() {
   return (
     <p
-      className="home-page-style"
-      style={{ fontSize: "21px", margin: "75px auto" }}
+      className="home-page-style font-custom-style"
+      style={{ margin: "75px auto 25px" }}
     >
       I am thrilled to share with you my journey as a Ph.D. candidate.
       Throughout my academic and industry career, I have dedicated myself to

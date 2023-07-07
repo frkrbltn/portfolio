@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./HomeParagraph.scss";
+import "./scssFiles/HomeParagraph.scss";
 
 function HomeParagraph() {
   return (
