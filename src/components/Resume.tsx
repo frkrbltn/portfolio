@@ -18,21 +18,21 @@ function Resume() {
             North Carolina State University <br />
             Hardware Security Researcher
             <br />
-            <p className="date">Aug/2019 - Present</p>
+            <span className="date">Aug/2019 - Present</span>
           </p>
           <p>
             Microsoft <br /> Security Researcher
             <br />
-            <p className="date">June/2022 - Sep/2022</p>
+            <span className="date">June/2022 - Sep/2022</span>
           </p>
           <p>
             Intel <br />
             Security Researcher <br />
-            <p className="date">Dec/2020 - Aug/2021</p>
+            <span className="date">Dec/2020 - Aug/2021</span>
           </p>
           <p>
             YongaTek <br /> ASIC/FPGA Design&Verification Engineer <br />
-            <p className="date">Mar/2017 - Aug/2019</p>
+            <span className="date">Mar/2017 - Aug/2019</span>
           </p>
         </Col>
         <Col xs={5} md={5} lg={5} style={{ marginLeft: "auto" }}>
@@ -40,15 +40,15 @@ function Resume() {
           <p>
             Doctor of Philosophy Degree <br /> North Carolina State University
             <br />
-            <p className="date">Jan/2020 - October/2023</p>
+            <span className="date">Jan/2020 - October/2023</span>
           </p>
           <p>
             Master’s Degree <br /> North Carolina State University <br />
-            <p className="date">Aug/2019 - May/2021</p>
+            <span className="date">Aug/2019 - May/2021</span>
           </p>
           <p>
             Bachelor’s Degree <br /> Yildiz Technical University <br />
-            <p className="date">Sep/2012 - Mar/2017</p>
+            <span className="date">Sep/2012 - Mar/2017</span>
           </p>
         </Col>
       </Row>

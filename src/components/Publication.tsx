@@ -42,10 +42,10 @@ const Publication: React.FC<PublicationProps> = ({
     <li>
       <a href={link}>{title}</a>,&nbsp;
       {authorsParts.map((part, i) => (
-        <>
+        <React.Fragment key={i}>
           {i !== 0 && <span className="highlight">{YOUR_NAME}</span>}
           {part}
-        </>
+        </React.Fragment>
       ))}
       , {location}, {year}
     </li>
