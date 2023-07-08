@@ -76,7 +76,7 @@ function App() {
         </Col>
         <Col
           xs={{ span: 12, order: 2 }}
-          md={{ span: 2, order: 1 }}
+          md={{ span: 10, order: 1 }}
           lg={10}
           style={{
             marginTop: "40px",
