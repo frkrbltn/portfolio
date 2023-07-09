@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.209843ee.css",
+    "main.js": "/personal-website/static/js/main.8dbd1ef5.js",
+    "static/media/emre-pic.png": "/personal-website/static/media/emre-pic.5773c8d4707f05b22d93.png",
+    "static/media/work-graph.png": "/personal-website/static/media/work-graph.3dd9f43924df18392c2c.png",
+    "static/media/emre-signature.png": "/personal-website/static/media/emre-signature.861cb5acbe1c5b17722a.png",
+    "index.html": "/personal-website/index.html",
+    "main.209843ee.css.map": "/personal-website/static/css/main.209843ee.css.map",
+    "main.8dbd1ef5.js.map": "/personal-website/static/js/main.8dbd1ef5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.209843ee.css",
+    "static/js/main.8dbd1ef5.js"
+  ]
+}
