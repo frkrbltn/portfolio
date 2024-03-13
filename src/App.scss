@@ -17,6 +17,7 @@
   color: #000000;
 }
 
+
 .nav-link:hover {
   color: #000;
 }
@@ -33,6 +34,13 @@
 .badge-style {
   margin: "-20px auto 5px auto";
   font-size: "1.2rem";
+}
+
+.last-row {
+  width: 100%; /* Ensure the image covers the full width */
+  object-fit: cover; /* Ensure the aspect ratio is maintained without stretching */
+  margin-bottom: 20px;
+  height: 200px; /* Your existing margin bottom */
 }
 
 @media only screen and (max-width: 576px) {

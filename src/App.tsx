@@ -11,6 +11,7 @@ import Tabs from "react-bootstrap/Tabs";
 import { BsLinkedin } from "react-icons/bs";
 import { SiGooglescholar } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
@@ -19,13 +20,16 @@ import Badge from "react-bootstrap/Badge";
 
 function App() {
   const openLinkedln = () => {
-    window.open("https://www.linkedin.com/in/emre-karabulut-bb7b78104/");
+    window.open("https://www.linkedin.com/in/furkan-karabulut01/");
   };
   const openGithub = () => {
-    window.open("https://github.com/ekarabu");
+    window.open("https://github.com/frkrbltn");
   };
-  const openGoogleScholar = () => {
-    window.open("https://scholar.google.com/citations?hl=en&user=pKeLyC8AAAAJ");
+  
+
+  const openGmail = () => {
+    const gmail = 'frkrbltn2332@gmail.com';
+    window.open(`mailto:${gmail}`);
   };
 
   return (
@@ -42,37 +46,30 @@ function App() {
           }}
         >
           <Image
-            src={require("./images/emre-pic.png")}
+            src={require("./images/furkan-profile.png")}
             className="img-fluid"
-            style={{ width: "auto", height: "auto", margin: "15px auto" }}
+            style={{ width: "auto", height: "250px", margin: "15px auto 30px" }}
             fluid
+            roundedCircle
           />
           <Image
-            src={require("./images/emre-signature.png")}
-            style={{ width: "auto", height: "auto", margin: "10px auto 45px" }}
+            src={require("./images/signature.png")}
+            style={{ width: "auto", height: "auto", margin: "10px auto 30px" }}
             className="img-fluid"
             fluid
           />
           <Badge
-            bg="success"
+            pill bg="dark"
             style={{
-              margin: "-20px auto 5px auto",
+              margin: "1px auto 5px auto",
               fontSize: "1.2rem",
             }}
           >
-            Security Researcher
+            Software Developer
           </Badge>
-          <h5
-            style={{
-              margin: "15px auto 15px auto",
-              textAlign: "center",
-            }}
-          >
-            emre.karabulut.dde at gmail.com
-          </h5>
-          <BsLinkedin className="icon-style" onClick={openLinkedln} />
-          <SiGooglescholar className="icon-style" onClick={openGoogleScholar} />
-          <FaGithub className="icon-style" onClick={openGithub} />
+          <SiGmail className="icon-style" onClick={openGmail} style={{ margin: "10px auto 30px" }}/>
+          <BsLinkedin className="icon-style" onClick={openLinkedln} style={{ margin: "10px auto 30px" }}/>
+          <FaGithub className="icon-style" onClick={openGithub} style={{ margin: "10px auto 30px" }}/>
         </Col>
         <Col
           xs={{ span: 12, order: 2 }}
@@ -104,7 +101,7 @@ function App() {
         </Col>
       </Row>
       <Row>
-        <Image src={require("./images/work-graph.png")} className="img-fluid" />
+        <Image src={require("./images/image.png")} className="last-row" />
       </Row>
     </Container>
   );
