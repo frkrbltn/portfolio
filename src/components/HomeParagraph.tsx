@@ -5,24 +5,32 @@ import "./scssFiles/HomeParagraph.scss";
 function HomeParagraph() {
   return (
     <p className="home-page-style">
-      I am a Ph.D. candidate at North Carolina State University, where I also
-      earned my Master's degree. My passion is to identify and then address
-      security vulnerabilities in hardware and software implementations.
+      🌟 About Me 🌟
       <br />
       <br />
-      My research revolves around the meticulous security analysis within a wide
-      range of implementations, including the practice of physical attacks such
-      as fault and side-channel attacks. By following this research, I expect to
-      improve the awareness of implementation vulnerabilities and enhance the
-      defenses of diverse systems. I do also secure implementation with methods
-      such as blinding and hiding, ensuring their resilience against
-      implementation vulnerabilities.
+      I'm Furkan Karabulut, a budding Software Engineer with a B.Sc. in Computer Science from North Carolina State University. Driven by a passion for technology and innovation,
+       I've embarked on a journey to blend theoretical knowledge with real-world application, exploring the vast realms of software development, data structures, databases, and more.
       <br />
-      <br />I possess a profound knowledge of hardware design. Leveraging this
-      expertise, I have successfully and securely accelerated diverse
-      applications on ASIC/FPGA. Therefore, my Ph.D. dissertation focuses on
-      lattice-based crypto-systems for edge-device applications, addressing
-      implementation efficiency, flexibility, and security concerns.
+      <br />
+      🔍 What I Do 🔍
+      <br />
+      <br />
+      With experience spanning full-stack development, algorithm optimization, and research, 
+      I thrive in environments that challenge my understanding and push the boundaries of what's possible with code. 
+      My toolkit is filled with languages like Java, Python, JavaScript, and SQL, complemented by my adeptness with tools and platforms such as VS Code, 
+      Eclipse, JetBrains, Docker, Terraform, and AWS. Whether it's developing responsive web applications or optimizing complex algorithms for efficiency, 
+      I approach each project with curiosity and determination.
+      <br />
+      <br />
+      🚀 Looking Ahead 🚀
+      <br />
+      <br />
+      As I continue to explore the ever-evolving landscape of computer science and software engineering, 
+      I'm eager to connect with professionals and organizations that are at the forefront of technology innovation. Whether it's through collaborative projects, 
+      new opportunities, or simply exchanging ideas, I'm excited about what the future holds and the impact we can create together.
+      <br />
+      <br />
+      Let's connect! Feel free to reach out if you're interested in discussing technology, innovation, or potential collaborations.
     </p>
   );
 }

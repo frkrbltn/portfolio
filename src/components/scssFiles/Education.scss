@@ -1,5 +1,7 @@
+// Education.scss
 @import url("https://fonts.googleapis.com/css2?family=Judson&family=Roboto:wght@100&family=Yuji+Hentaigana+Akebono&display=swap");
-.publication-custom-style {
+
+.education-custom-style {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", serif;
@@ -16,17 +18,15 @@
 }
 
 @media only screen and (max-width: 576px) {
-  /* other rules */
-  .publication-custom-style {
-    font-size: 13px; /* Adjust as needed */
-    padding: 5px; /* Adjust as needed */
+  .education-custom-style {
+    font-size: 13px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Roboto", serif;
     width: 80%;
     margin: auto;
-    padding: 0 15px; // Add some space around the text on smaller screens
+    padding: 0 15px;
     text-align: justify;
   }
 }
