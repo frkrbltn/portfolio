@@ -9,7 +9,7 @@ function Resume() {
   return (
     <Container className="resume-custom-style" fluid style={{ marginTop: "30px" }}>
       <Row className="note-row" style={{ margin: "20px auto 0px", fontSize: "20px" }}>
-        <a href={resumePDF} target="_blank" download="fkarabu_resume.pdf" style={{ color: "inherit", textDecoration: "none" }}>
+        <a href={resumePDF} target="_blank" rel="noreferrer noopener" download="fkarabu_resume.pdf" style={{ color: "inherit", textDecoration: "none" }}>
           <span className="note-highlight">Note:</span> For a detailed view of my resume, including my education and comprehensive work experience, please click this line to download.
         </a>
       </Row>

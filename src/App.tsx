@@ -1,8 +1,6 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.scss";
 import HomeParagraph from "./components/HomeParagraph";
-import Breakthroughs from "./components/Breakthroughs";
 import Education from "./components/Education";
 import Expertise from "./components/Expertise";
 import Resume from "./components/Resume";
@@ -16,7 +14,6 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Badge from "react-bootstrap/Badge";
-import { Tooltip, OverlayTrigger } from 'react-bootstrap';
 
 function App() {
   const openLinkedln = () => {
