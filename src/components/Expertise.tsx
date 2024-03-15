@@ -12,8 +12,7 @@ import "./scssFiles/Expertise.scss";
 function Expertise() {
   return (
     <p className="expertise-custom-style">
-      I am a versatile and skilled technology professional with a deep understanding
-       and hands-on experience across a broad spectrum of computer science and software development disciplines.
+      I'm a tech enthusiast with a solid grasp and practical experience in a wide range of computer science and software development areas.
        <br />
        <br />
       <b

@@ -8,29 +8,29 @@ function HomeParagraph() {
       🌟 About Me 🌟
       <br />
       <br />
-      I'm Furkan Karabulut, a budding Software Engineer with a B.Sc. in Computer Science from North Carolina State University. Driven by a passion for technology and innovation,
-       I've embarked on a journey to blend theoretical knowledge with real-world application, exploring the vast realms of software development, data structures, databases, and more.
+      Hello, I'm Furkan Karabulut. With my B.Sc. in Computer Science from North Carolina State University, 
+      I've embarked on a fulfilling journey as a Software Engineer. Fueled by my enthusiasm for technology, 
+      I'm bridging the gap between theoretical knowledge and real-world coding, software development, data structures, and databases.
+      My portfolio website is where I share my experiences and projects.
       <br />
       <br />
       🔍 What I Do 🔍
       <br />
       <br />
-      With experience spanning full-stack development, algorithm optimization, and research, 
-      I thrive in environments that challenge my understanding and push the boundaries of what's possible with code. 
-      My toolkit is filled with languages like Java, Python, JavaScript, and SQL, complemented by my adeptness with tools and platforms such as VS Code, 
-      Eclipse, JetBrains, Docker, Terraform, and AWS. Whether it's developing responsive web applications or optimizing complex algorithms for efficiency, 
-      I approach each project with curiosity and determination.
+      I've gained experience in full-stack development, algorithm optimization, and research, 
+      thriving in settings that challenge me and expand my coding capabilities. My skill set includes Java, Python, JavaScript, and SQL, 
+      alongside proficiency in tools like VS Code, Eclipse, JetBrains, Docker, Terraform, and AWS. My approach to building web applications or enhancing algorithms
       <br />
       <br />
       🚀 Looking Ahead 🚀
       <br />
       <br />
-      As I continue to explore the ever-evolving landscape of computer science and software engineering, 
-      I'm eager to connect with professionals and organizations that are at the forefront of technology innovation. Whether it's through collaborative projects, 
-      new opportunities, or simply exchanging ideas, I'm excited about what the future holds and the impact we can create together.
+      As the tech field continues to evolve, I'm keen to connect with industry professionals and organizations leading in technological innovation. 
+      I'm open to collaborative projects, 
+      new challenges, or simply sharing ideas. I look forward to what the future brings and the opportunities to contribute to our shared tech landscape.
       <br />
       <br />
-      Let's connect! Feel free to reach out if you're interested in discussing technology, innovation, or potential collaborations.
+      Let's connect! Feel free to reach out if you're interested in discussing projects, innovation, or potential collaborations.
     </p>
   );
 }
