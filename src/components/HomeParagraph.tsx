@@ -8,18 +8,19 @@ function HomeParagraph() {
       🌟 About Me 🌟
       <br />
       <br />
-      Hello, I'm Furkan Karabulut. With my B.Sc. in Computer Science from North Carolina State University, 
-      I've embarked on a fulfilling journey as a Software Engineer. Fueled by my enthusiasm for technology, 
-      I'm bridging the gap between theoretical knowledge and real-world coding, software development, data structures, and databases.
-      My portfolio website is where I share my experiences and projects.
+      Hello, I'm Furkan Karabulut. I graduated with a B.Sc. in Computer Science from North Carolina State University. 
+      I love working as a Software Engineer, where I get to turn theoretical knowledge into practical applications in coding,
+      software development, clouding and databases. 
+      Check out my portfolio to see more about my work and projects.
       <br />
       <br />
       🔍 What I Do 🔍
       <br />
       <br />
-      I've gained experience in full-stack development, algorithm optimization, and research, 
-      thriving in settings that challenge me and expand my coding capabilities. My skill set includes Java, Python, JavaScript, and SQL, 
-      alongside proficiency in tools like VS Code, Eclipse, JetBrains, Docker, Terraform, and AWS. My approach to building web applications or enhancing algorithms
+      I've gained experience in full-stack development, algorithm optimization, and research project, 
+      I enjoy tackling challenging problems and expanding my coding skills. I have experience with Java, Python, JavaScript, and SQL, and
+      I am comfortable using tools like VS Code, Eclipse, JetBrains, Docker, Terraform, and AWS. Whether it is building web applications or refining algorithms, 
+      I approach every task with enthusiasm and a problem-solving mindset.
       <br />
       <br />
       🚀 Looking Ahead 🚀
@@ -27,7 +28,7 @@ function HomeParagraph() {
       <br />
       As the tech field continues to evolve, I'm keen to connect with industry professionals and organizations leading in technological innovation. 
       I'm open to collaborative projects, 
-      new challenges, or simply sharing ideas. I look forward to what the future brings and the opportunities to contribute to our shared tech landscape.
+      new challenges, or simply sharing ideas. I look forward to what the future brings and the opportunities to contribute to our shared tech world :).
       <br />
       <br />
       Let's connect! Feel free to reach out if you're interested in discussing projects, innovation, or potential collaborations.
