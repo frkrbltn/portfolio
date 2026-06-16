@@ -1,0 +1,32 @@
+// Education.scss
+@import url("https://fonts.googleapis.com/css2?family=Judson&family=Roboto:wght@100&family=Yuji+Hentaigana+Akebono&display=swap");
+
+.education-custom-style {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", serif;
+  font-size: 24px;
+  width: 80%;
+  margin: auto;
+  padding: 20px 15px;
+  text-align: justify;
+}
+
+.highlight {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 576px) {
+  .education-custom-style {
+    font-size: 13px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 0 15px;
+    text-align: justify;
+  }
+}

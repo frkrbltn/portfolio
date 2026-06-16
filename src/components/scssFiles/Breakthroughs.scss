@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson&family=Roboto:wght@100&family=Yuji+Hentaigana+Akebono&display=swap");
+
+.font-custom-style {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  text-align: justify;
+  font-size: 25px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: bolder;
+  width: 80%;
+  margin: auto;
+  padding: 30px 15px;
+}
+
+@media only screen and (max-width: 576px) {
+  /* other rules */
+  .font-custom-style {
+    font-size: 13px; /* Adjust as needed */
+    padding: 5px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", serif;
+    width: 80%;
+    margin: auto;
+    padding: 0 15px; // Add some space around the text on smaller screens
+    text-align: justify;
+  }
+}
